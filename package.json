@@ -1,0 +1,25 @@
+{
+  "name": "chartjs-plugin-colorscheme",
+  "version": "1.0.0",
+  "description": "Plugin de Chart.js para asignar colores a los datasets",
+  "main": "dist/chartjs-plugin-colorscheme.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "color-interpolate": "^1.0.5",
+    "colormap": "^2.3.2"
+  },
+  "peerDependencies": {
+    "chart.js": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "babel-loader": "^9.2.1",
+    "path-browserify": "^1.0.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
